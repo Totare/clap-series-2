@@ -1,11 +1,15 @@
 function isAFull(cards){
+    // console.log(cards);
     let isAFull = false;
     let colorOcc = colorOccurences(cards);
+    // console.log(colorOcc);
     for(var [key, value] of Object.entries(colorOcc)){
         if( value > 4){
-            isAFull = getHighestOnFull();
+            isAFull = true;
+            // getHighestOnFull();
         };
     };
+    console.log(isAFull);
     return isAFull;
 };
 
@@ -21,6 +25,7 @@ function colorOccurences(cards) {
     for(var [key, value] of Object.entries(COLORS)){
         let countCard = 0;
         cards.forEach(card=>{
+            // console.log(card);
             let formatedCard = card[card.length - 1];
             let formatedCARD = value;
             if(formatedCard  === formatedCARD){
@@ -36,6 +41,7 @@ function colorOccurences(cards) {
 
 function getHighestOnFull(){
     //TO DO => recuperer la carte la plus haute du full
+    console.log('ya eu un full');
     return true;
     
 }

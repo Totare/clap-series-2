@@ -1,36 +1,27 @@
 function startGame(){
     cards = dealer();
     showCards();
-    let heroHand = cards[0].concat(cards[2]).flat();
-    let vilainHand = cards[1].concat(cards[2]).flat();
+    let heroHand = [];
+    heroHand.push(cards[0]);
+    heroHand.push(cards[2]);
+    
+    let vilainHand = [];
+    vilainHand.push(cards[1]);
+    vilainHand.push(cards[2]);
 
-    maindetest = [
-        '3h',
-        'Qh',
-        '9h',
-        '8h',
-        'Kc',
-        '5h'
-    ];
-    let testCombo = bestCombo(maindetest);
-    let testCombo2 = {"value":'R', "type":'pair'}
-    console.log(testCombo.type)
-    console.log(testCombo2)
-    let winner = compareCombo(testCombo, testCombo2);
+    let heroCombo = bestCombo(heroHand);
+    let vilainCombo = bestCombo(vilainHand);
+    let winner = compareCombo(heroCombo, vilainCombo);
     showWinner(winner);
-
-
-    // let heroCombo = bestCombo(heroHand);
-    // let vilainCombo = bestCombo(vilainHand);
-    // let winner = compareCombo(heroCombo, vilainCombo);
-    // ShowWinner(winner);
 };
 
 function showWinner(winner){
     if(winner === "hero"){
         winner = 'Le Hero';
-    }else if(winner = hero){
-        winner = 'Le vilain';
+    }else if(winner === "vilain"){
+        winner = 'Le Vilain';
+    }else{
+        winner = 'Personne car il y a égalité';
     }
     document.getElementById('winner').innerHTML = "Le Gagnant est : "+winner;
 };

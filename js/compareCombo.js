@@ -4,46 +4,39 @@ const COMBO_TYPE = [
     'pair',
     'highest',
 ];
-const COMBO_VALUE = [
-    'A',
-    'K',
-    'Q',
-    'J',
-    '10',
-    '9',
-    '8',
-    '7',
-    '6',
-    '5',
-    '4',
-    '3',
-    '2',
-];
+
 
 function compareCombo(heroCombo, vilainCombo){
+    console.log(heroCombo.type) ;
+    console.log(vilainCombo.type);
     if(heroCombo.type == vilainCombo.type){
-        return compareComboIndex(heroCombo.value, vilainCombo.value, COMBO_VALUE);
+        return compareIndex(heroCombo.value, vilainCombo.value);
     }else{
-        return compareComboIndex(heroCombo.type, vilainCombo.type, COMBO_TYPE);
+        return compareComboType(heroCombo.type, vilainCombo.type);
     }
 };
 
-function compareComboIndex(heroInfo, vilainInfo, COMBO){
-    let heroIndex = getIndex(heroInfo, COMBO);
-    let vilainIndex = getIndex(vilainInfo, COMBO);
-    if(heroIndex < vilainIndex){
-        return 'hero';
-    }else if(heroIndex > vilainIndex){
-        return 'vilain';
-    }else{
-        return 'equality';
-    }
-};
 
-function getIndex(joueurInfo, COMBO){
-    for (let i = 0; i < COMBO.length; i++) {
-        if(joueurInfo === COMBO[i]){
-          return i;
+function compareComboType(hero, vilain){
+    let heroTypeIndex;
+    let vilainTypeIndex;
+    for (let i = 0; i < COMBO_TYPE.length; i++) {
+        if(hero === COMBO_TYPE[i]){
+            heroTypeIndex = i;
+        };
+        if(vilain === COMBO_TYPE[i]){
+            vilainTypeIndex = i;
         };
     }
+    return compareIndex(heroTypeIndex, vilainTypeIndex)
+};
+
+function compareIndex(heroIndex, vilainIndex){
+    if(heroIndex < vilainIndex){
+    return 'hero';
+}else if(heroIndex > vilainIndex){
+    return 'vilain';
+}else{
+    return 'equality';
+}
 };

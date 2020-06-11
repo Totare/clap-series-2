@@ -2,6 +2,7 @@
 <script src="js/isAFull.js"></script>
 <script src="js/isAHighest.js"></script>
 <script src="js/isAPair.js"></script>
+<script src="js/getIndex.js"></script>
 
 <script src="js/bestCombo.js"></script>
 <script src="js/compareCombo.js"></script>
