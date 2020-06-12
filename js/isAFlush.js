@@ -8,7 +8,7 @@ function isAFlush(cards) {
             return true;
         };
     };
-    console.log(isAFull);
+    // console.log(isAFull);
     return isAFull;
 };
 

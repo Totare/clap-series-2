@@ -1,7 +1,7 @@
 function bestCombo(cards) {
     let playerCards = cards[0].flat();
     cards = cards[0].concat(cards[1]).flat();
-
+    // console.log(cards);
     let value;
     // value = isAFull(cards);
     // if(value){
@@ -22,7 +22,7 @@ function bestCombo(cards) {
     };   
     value = isAHighest(playerCards);
     if(typeof(value)== 'number'){
-        console.log('full');
+        console.log('higest');
         return {"type" : "highest", "value": value }
     };
 };
