@@ -1,1 +1,4 @@
-{}
+{
+    "name": "poky",
+    "description": "Petite appli exercice de poker"
+}
