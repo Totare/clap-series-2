@@ -9,7 +9,7 @@ function isAFull(cards){
             // getHighestOnFull();
         };
     };
-    console.log(isAFull);
+    // console.log(isAFull);
     return isAFull;
 };
 

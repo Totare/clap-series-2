@@ -7,8 +7,6 @@ const COMBO_TYPE = [
 
 
 function compareCombo(heroCombo, vilainCombo){
-    console.log(heroCombo.type) ;
-    console.log(vilainCombo.type);
     if(heroCombo.type == vilainCombo.type){
         return compareIndex(heroCombo.value, vilainCombo.value);
     }else{
