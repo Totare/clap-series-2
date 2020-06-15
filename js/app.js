@@ -42,6 +42,5 @@ function showCards(){
 };
 
 function addRewardButton(winner){
-    console.log('doudou')
     document.getElementById('reward').style.display = "block"
 };
