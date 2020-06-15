@@ -13,6 +13,7 @@ function startGame(){
     let vilainCombo = bestCombo(vilainHand);
     let winner = compareCombo(heroCombo, vilainCombo);
     showWinner(winner);
+    addRewardButton(winner);
 };
 
 function showWinner(winner){
@@ -38,4 +39,9 @@ function showCards(){
     cardShowing[6].setAttribute("src", "/assets/cards/"+cards[2][2]+'.png')
     cardShowing[7].setAttribute("src", "/assets/cards/"+cards[2][3]+'.png')
     cardShowing[8].setAttribute("src", "/assets/cards/"+cards[2][4]+'.png')
+};
+
+function addRewardButton(winner){
+    console.log('doudou')
+    document.getElementById('reward').style.display = "block"
 };
