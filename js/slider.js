@@ -25,10 +25,11 @@ $(function(){
 	// ==== CSS ====
 	$(".slideshow").css("display","flex");
 	$(".slideshow").css("flex-wrap", "nowrap");
+	$(".slideshow").css("padding","0");
 
 	$(".slideshow > .slide").css("display", "flex");
 	$(".slideshow > .slide").css("justify-content", "center");
-	$(".slideshow > .slide").css("width", 100/$imgShow+"%");
+	$(".slideshow > .slide").css("min-width", 100/$imgShow+"%");
 
 	$(".slideshow > .slide > img").css("height", "100%");
 
