@@ -45,24 +45,15 @@
 </section>
 <section id='winner' class="d-flex justify-content-centerpt-5"></section>
 
-<!-- <section id="slider">
+<section id="slider">
     <figure class="slideshow">
         <div class="slide"><img src="/assets/player/hero.png"></div>
         <div class="slide"><img src="/assets/player/hero.png"></div>
         <div class="slide"><img src="/assets/player/vilain.png"></div>
         <div class="slide"><img src="/assets/player/vilain.png"></div>
     </figure>
-</section> -->
-
-<section id="slider">
-    <figure class="slideshow" style="background:yellow">
-        <div class="slide" style="background:blue"><img src="/assets/player/hero.png"></div>
-        <div class="slide" style="background:blue"><img src="/assets/player/hero.png"></div>
-        <div class="slide" style="background:red"><img src="/assets/player/hero.png"></div>
-        <div class="slide" style="background:green"><img src="/assets/player/vilain.png"></div>
-        <div class="slide" style="background:purple"><img src="/assets/player/vilain.png"></div>
-    </figure>
 </section>
+
 <?php $content = ob_get_clean(); ?>
 
 <?php require('view/template.php'); ?>
