@@ -43,15 +43,26 @@
         <div class='col'><img src="/assets/cards/back.png" alt="" class="img-thumbnail img-fluid aCard"></div>
     </article>
 </section>
-<section id='winner' class="d-flex justify-content-centerpt-5"></section>
+<section id='winner' class="d-flex justify-content-center pt-5"></section>
 
-<section id="slider">
-    <figure class="slideshow">
-        <div class="slide"><img src="/assets/player/hero.png"></div>
-        <div class="slide"><img src="/assets/player/hero.png"></div>
-        <div class="slide"><img src="/assets/player/vilain.png"></div>
-        <div class="slide"><img src="/assets/player/vilain.png"></div>
-    </figure>
+<section id="partners" class="container">
+    <h2>Nos Partenaires</h2>
+    <article>
+        <figure class="slideshow">
+            <div class="slide"><img src="/assets/player/hero.png"></div>
+            <div class="slide"><img src="/assets/player/hero.png"></div>
+            <div class="slide"><img src="/assets/player/vilain.png"></div>
+            <div class="slide"><img src="/assets/player/vilain.png"></div>
+            <div class="slide"><img src="/assets/player/hero.png"></div>
+            <div class="slide"><img src="/assets/player/hero.png"></div>
+            <div class="slide"><img src="/assets/player/vilain.png"></div>
+            <div class="slide"><img src="/assets/player/vilain.png"></div>
+            <div class="slide"><img src="/assets/player/hero.png"></div>
+            <div class="slide"><img src="/assets/player/hero.png"></div>
+            <div class="slide"><img src="/assets/player/vilain.png"></div>
+            <div class="slide"><img src="/assets/player/vilain.png"></div>
+        </figure>
+    </article>
 </section>
 
 <?php $content = ob_get_clean(); ?>

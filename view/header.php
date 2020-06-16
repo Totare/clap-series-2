@@ -30,7 +30,7 @@
     <form class="form-inline my-2 my-lg-0">
       <a href="/"><button type="button" class="btn btn-dark m-2">Jouer</button></a>
       <a href="/nos-engagements"><button type="button" class="btn btn-dark m-2">Nos engagements</button></a>
-      <a href="/les-partenaires"><button type="button" class="btn btn-dark m-2">Les Partenaires</button></a>
+      <a href="#partners"><button type="button" class="btn btn-dark m-2">Les Partenaires</button></a>
     </form>
   </div>
 </nav>

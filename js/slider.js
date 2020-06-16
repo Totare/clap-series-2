@@ -19,7 +19,7 @@ $(function(){
 	// ==== Variables =====
 
 	//image can we show in same time on slider
-	$imgShow = 3;
+	$imgShow = 10;
 
 
 	// ==== CSS ====
@@ -35,6 +35,7 @@ $(function(){
 
 	$(".slideshow").css("flex-wrap", "nowrap");
 
+	$(".slideshow").parent().css("overflow","hidden");
 
 	// ==== SLIDER FUNCTION ====
 	$(".slideshow").width("100%");
