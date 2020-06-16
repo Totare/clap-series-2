@@ -51,7 +51,6 @@
         <div class="slide"><img src="/assets/player/hero.png"></div>
         <div class="slide"><img src="/assets/player/vilain.png"></div>
         <div class="slide"><img src="/assets/player/vilain.png"></div>
-        <div class="slide"><img src="/assets/player/hero.png"></div>
     </figure>
 </section>
 <?php $content = ob_get_clean(); ?>

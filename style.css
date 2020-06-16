@@ -1,24 +1,4 @@
-body { 
-  margin: 0;
-} 
 section#slider { 
   overflow: hidden;
-}
-section#slider figure div { 
-  width: 100%; 
-  float: left;
-  justify-content: center;
-  display: flex;
-}
-section#slider figure div img{ 
-  height: 100%; 
-} 
-section#slider figure { 
-  display: flex;
-  flex-wrap: nowrap;
-  position: relative;
-  margin: 0;
-  left: 0;
-  text-align: left;
-  font-size: 0;
+  width: 100%;
 }
