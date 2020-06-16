@@ -46,9 +46,12 @@
 <section id='winner' class="d-flex justify-content-centerpt-5"></section>
 
 <section id="slider">
-    <figure>
-        <div><img src="/assets/player/hero.png"></div>
-        <div><img src="/assets/player/vilain.png"></div>
+    <figure class="slideshow">
+        <div class="slide"><img src="/assets/player/hero.png"></div>
+        <div class="slide"><img src="/assets/player/hero.png"></div>
+        <div class="slide"><img src="/assets/player/vilain.png"></div>
+        <div class="slide"><img src="/assets/player/vilain.png"></div>
+        <div class="slide"><img src="/assets/player/hero.png"></div>
     </figure>
 </section>
 <?php $content = ob_get_clean(); ?>
