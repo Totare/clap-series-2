@@ -1,5 +1,6 @@
 function startGame(){
     cards = dealer();
+
     showCards();
     let heroHand = [];
     heroHand.push(cards[0]);

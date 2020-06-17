@@ -15,7 +15,7 @@
         <div id="play" class="col d-flex">
             <div class=" m-auto">
                 <div class="row m-2 justify-content-center">
-                    <button type="button" class="btn btn-dark" onclick='startGame()'>Jouer !</button>
+                    <button type="button" class="btn btn-dark" onclick='new LaunchGame()'>Jouer !</button>
                 </div>
                 <div id='reward' class="row m-2 justify-content-center" style="display:none">
                     <a href="/reward.php">
