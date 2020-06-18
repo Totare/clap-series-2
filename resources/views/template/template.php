@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>  
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
     <title><?= $title ?></title>
 
      <!-- BOOTSTRAP -->
@@ -19,7 +19,10 @@
     <script src="js/cardGame/CompareComboClass.js"></script>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link href="../css/style.css" rel="stylesheet" />
+
+    <link rel="icon" type="images/png" href="../images/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico">
 
 </head>
 
