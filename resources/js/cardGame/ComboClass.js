@@ -1,4 +1,3 @@
-
 class Combo{
     constructor(cards){
         this.playerCards = cards[0].flat();

@@ -12,11 +12,7 @@
     <script	src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
 		
     <!-- CALL MY APP FILES JS -->
-    <script src="js/cardGame/CardsClass.js"></script>
-    <script src="js/cardGame/DealerClass.js"></script>
-    <script src="js/cardGame/LaunchGameClass.js"></script>
-    <script src="js/cardGame/ComboClass.js"></script>
-    <script src="js/cardGame/CompareComboClass.js"></script>
+    <script src="js/app.js"></script>
 
     <!-- CSS -->
     <link href="../css/style.css" rel="stylesheet" />
@@ -34,6 +30,7 @@
     </main>
 
     <!-- SLIDER -->
-    <script src="js/plugin/slider.js"></script>
+    
+    <!-- <script src="js/plugin/slider.js"></script> -->
 </body>
 </html>

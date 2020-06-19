@@ -1,8 +1,9 @@
-class LaunchGame{
+import Dealer from "DealerClass.js";
+
+export default class LaunchGame{
     constructor(){
         this.deck = new Dealer();
         this.cards = this.deck.deal(2, 5);
-
     
         this.showCards();
         this.heroHand = [];
@@ -50,3 +51,5 @@ class LaunchGame{
         cardShowing[8].setAttribute("src", "/assets/cards/"+this.cards[2][4]+'.png')
     }
 }
+
+export{ LaunchGame }

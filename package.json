@@ -1,0 +1,26 @@
+{
+  "name": "clap-series-2",
+  "version": "1.0.0",
+  "description": "https://poky.herokuapp.com/",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Totare/clap-series-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Totare/clap-series-2/issues"
+  },
+  "homepage": "https://github.com/Totare/clap-series-2#readme",
+  "devDependencies": {
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
