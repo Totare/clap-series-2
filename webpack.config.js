@@ -6,6 +6,7 @@ module.exports = {
 	output: {
 		path: path.resolve(__dirname, './public'),
 		filename: './js/app.js',
-		library: 'default'
+		libraryTarget: 'var',
+		library: 'LaunchGame'
 	}
 };

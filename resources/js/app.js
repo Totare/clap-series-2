@@ -7,5 +7,3 @@ import Combo from './cardGame/ComboClass.js';
 import Cards from './cardGame/CardsClass.js';
 
 import slider from './plugin/slider.js';
-
-new LaunchGame()

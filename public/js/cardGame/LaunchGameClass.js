@@ -1,4 +1,4 @@
-export default class LaunchGame{
+class LaunchGame{
     constructor(){
         this.deck = new Dealer();
         this.cards = this.deck.deal(2, 5);
@@ -38,14 +38,14 @@ export default class LaunchGame{
 
     showCards(){
         let cardShowing = document.getElementsByClassName('aCard');
-        cardShowing[0].setAttribute("src", "/assets/cards/"+this.cards[0][0]+'.png')
-        cardShowing[1].setAttribute("src", "/assets/cards/"+this.cards[0][1]+'.png')
-        cardShowing[2].setAttribute("src", "/assets/cards/"+this.cards[1][0]+'.png')
-        cardShowing[3].setAttribute("src", "/assets/cards/"+this.cards[1][1]+'.png')
-        cardShowing[4].setAttribute("src", "/assets/cards/"+this.cards[2][0]+'.png')
-        cardShowing[5].setAttribute("src", "/assets/cards/"+this.cards[2][1]+'.png')
-        cardShowing[6].setAttribute("src", "/assets/cards/"+this.cards[2][2]+'.png')
-        cardShowing[7].setAttribute("src", "/assets/cards/"+this.cards[2][3]+'.png')
-        cardShowing[8].setAttribute("src", "/assets/cards/"+this.cards[2][4]+'.png')
+        cardShowing[0].setAttribute("src", "/images/cards/"+this.cards[0][0]+'.png')
+        cardShowing[1].setAttribute("src", "/images/cards/"+this.cards[0][1]+'.png')
+        cardShowing[2].setAttribute("src", "/images/cards/"+this.cards[1][0]+'.png')
+        cardShowing[3].setAttribute("src", "/images/cards/"+this.cards[1][1]+'.png')
+        cardShowing[4].setAttribute("src", "/images/cards/"+this.cards[2][0]+'.png')
+        cardShowing[5].setAttribute("src", "/images/cards/"+this.cards[2][1]+'.png')
+        cardShowing[6].setAttribute("src", "/images/cards/"+this.cards[2][2]+'.png')
+        cardShowing[7].setAttribute("src", "/images/cards/"+this.cards[2][3]+'.png')
+        cardShowing[8].setAttribute("src", "/images/cards/"+this.cards[2][4]+'.png')
     }
 }
