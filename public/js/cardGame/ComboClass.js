@@ -35,14 +35,10 @@ class Combo{
     }
     
     isAFlush() {
-        let isAFull = false;
         let colorOcc = this.colorOccurences();
         for(var [key, value] of Object.entries(colorOcc)){
-            if( value > 4){
-                return true;
-            };
+            return value > 4?true:false
         };
-        return isAFull;
     };
 
     isAPair() {

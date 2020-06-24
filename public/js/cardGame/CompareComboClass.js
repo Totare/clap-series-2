@@ -12,16 +12,8 @@ class CompareCombo{
     }
 
     compareComboType(){
-        let heroTypeIndex;
-        let vilainTypeIndex;
-        for (let i = 0; i < Cards.COMBO_TYPE.length; i++) {
-            if(this.heroCombo.type === Cards.COMBO_TYPE[i]){
-                heroTypeIndex = i;
-            };
-            if(this.vilainCombo.type === Cards.COMBO_TYPE[i]){
-                vilainTypeIndex = i;
-            };
-        }
+        let heroTypeIndex = Cards.COMBO_TYPE.indexOf(this.heroCombo.type)
+        let vilainTypeIndex = Cards.COMBO_TYPE.indexOf(this.vilainCombo.type)
         return this.compareIndex(heroTypeIndex, vilainTypeIndex);
     }
 
